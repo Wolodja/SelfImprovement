@@ -15,7 +15,7 @@ public class MultipleMonitorObjects {
     }
     public int getCounter2() {
         synchronized (this.monitor2) {
-            return counter1;
+            return counter2;
         }
     }
 }
